@@ -72,16 +72,4 @@ flutter build apk
 
 ---
 
-## 📸 Prints (adicione os seus aqui)
 
-<img src="prints/screenshot1.png" width="200" /> <img src="prints/screenshot2.png" width="200" />
-
----
-
-## 📜 Licença
-
-Este projeto é livre para uso educacional. Para usos comerciais ou integração em sistemas proprietários, entre em contato.
-
----
-
-Desenvolvido com ☕ por [Seu Nome](https://github.com/seu-usuario)
