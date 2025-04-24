@@ -1,6 +1,6 @@
 # ☕ Classificador de Café com IA (Flutter + TFLite)
 
-Este é um app Flutter que usa um modelo de Machine Learning (TFLite) embarcado para classificar imagens de frutos de café em cinco categorias de maturação: `unripe`, `semi_ripe`, `ripe`, `overripe` e `dry`.
+Este é um app Flutter que usa um modelo de Machine Learning (TFLite) embarcado para classificar imagens de frutos de café em cinco categorias.
 
 ---
 
