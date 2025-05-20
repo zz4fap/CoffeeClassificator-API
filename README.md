@@ -1,5 +1,4 @@
-# Criar o conteúdo do README.md formatado como string
-readme_content = """
+
 # ☕ Classificador de Café com IA (Flutter + Flask + Docker + TFLite)
 
 Este é um app Flutter que utiliza um modelo de Machine Learning integrado a uma API Flask para classificar imagens de grãos de café em cinco categorias distintas. A classificação é realizada com base em três imagens consecutivas, utilizando arquitetura cliente-servidor via API REST.
@@ -21,9 +20,9 @@ Este é um app Flutter que utiliza um modelo de Machine Learning integrado a uma
 
 Você pode:
 
-- ✅ Baixar o APK pronto e instalar no seu dispositivo Android  
-- 📦 Ou rodar o projeto completo localmente com a API Flask e o app Flutter  
-
+- ✅ Acesse a seção de releases deste repositório no GitHub. 
+- 📦 Baixe o arquivo app-release.apk.
+- ✅ Instale em seu dispositivo Android.
 ---
 
 ### 📱 Opção 1: Instalar o app no celular
@@ -47,5 +46,5 @@ Você pode:
   - image_picker  
   - path_provider  
   - permission_handler  
-"""
+
 
