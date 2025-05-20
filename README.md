@@ -1,75 +1,89 @@
-# ☕ Classificador de Café com IA (Flutter + TFLite)
+☕ Classificador de Café com IA (Flutter + Flask + Docker + TFLite)
+Este é um app Flutter que utiliza um modelo de Machine Learning integrado a uma API Flask para classificar imagens de grãos de café em cinco categorias distintas. A classificação é realizada com base em três imagens consecutivas, utilizando arquitetura cliente-servidor via API REST.
 
-Este é um app Flutter que usa um modelo de Machine Learning (TFLite) embarcado para classificar imagens de frutos de café em cinco categorias.
+🧠 Funcionalidades
+📸 Captura automática de 3 fotos com a câmera do celular.
 
----
+🤖 Classificação via modelo ConvMixer usando API Flask.
 
-## 🧠 Funcionalidades
+✅ Resultado final por votação majoritária.
 
-- 📸 Captura automática de 3 fotos com intervalo de 2 segundos.
-- 🤖 Classificação com modelo TensorFlow Lite embarcado.
-- ✅ Resultado com a classe mais frequente entre as 3 capturas.
-- 🎨 Interface simples, direta e leve.
-- 🔐 Permissões automáticas para uso de câmera.
+🔗 Comunicação com servidor via rede local (Docker).
 
----
+🔒 Armazenamento local dos resultados (e opção futura para SQL).
 
-## 📂 Estrutura
+🎨 Interface intuitiva e responsiva.
 
-```
-lib/
-├── main.dart
-├── splash_screen.dart
-├── transicao_page.dart
-└── classificador_page.dart
+📂 Estrutura
+bash
+Copiar
+Editar
+/app (Flutter)
+├── lib/
+│   ├── main.dart
+│   ├── splash_screen.dart
+│   ├── transicao_page.dart
+│   ├── classificador_page.dart
+│   └── api.dart
+├── assets/
+│   ├── labels.txt
+│   └── ícones, imagens, fontes...
 
-assets/
-├── modelo.tflite
-└── labels.txt
-```
+/backend (Flask + Docker)
+├── app.py
+├── model.tflite
+├── Dockerfile
+└── requirements.txt
+🚀 Como utilizar
+Você pode:
 
----
+✅ Baixar o APK pronto e instalar no seu dispositivo Android
+📦 Ou rodar o projeto completo localmente com API Flask e o app Flutter
 
-## 🚀 Como rodar
+📱 Opção 1: Instalar o app no celular
+Acesse a seção de releases deste repositório no GitHub.
 
-1. Clone o repositório:
+Baixe o arquivo app-release.apk.
 
-```bash
-git clone https://github.com/seu-usuario/classificador_cafe_flutter_embarcado.git
-cd classificador_cafe_flutter_embarcado
-```
+Instale em seu dispositivo Android.
 
-2. Instale as dependências:
+Certifique-se de que o celular esteja na mesma rede que o servidor Flask.
 
-```bash
+O app solicitará permissão de câmera ao abrir pela primeira vez.
+
+🧪 Opção 2: Rodar localmente
+Clone o repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/classificador_cafe_flutter.git
+cd classificador_cafe_flutter
+Suba o servidor Flask com Docker:
+
+bash
+Copiar
+Editar
+cd backend
+docker build -t classificador-api .
+docker run -p 5000:5000 classificador-api
+Configure o IP da API no arquivo lib/api.dart dentro da pasta /app com o IP da máquina onde está rodando o Docker.
+
+Conecte seu celular por USB (modo desenvolvedor ativado):
+
+bash
+Copiar
+Editar
+cd ../app
 flutter pub get
-```
-
-3. Rode no dispositivo ou emulador físico (com câmera):
-
-```bash
 flutter run
-```
+📱 Tecnologias Utilizadas
+Flutter (Dart)
 
-4. Para gerar o APK:
+TensorFlow Lite (modelo ConvMixer)
 
-```bash
-flutter build apk
-```
+Flask (Python)
 
-> ⚠️ O app usa câmera nativa, então é melhor rodar em um celular ou emulador com suporte à câmera (como Genymotion com webcam ativada).
+Docker
 
----
-
-## 📱 Tecnologias Utilizadas
-
-- Flutter (Dart)
-- TensorFlow Lite (via plugin tflite)
-- camera
-- permission_handler
-- image_picker
-- Lottie (animações)
-
----
-
-
+Plugins Flutter: camera, image_picker, path_provider, permission_handler
