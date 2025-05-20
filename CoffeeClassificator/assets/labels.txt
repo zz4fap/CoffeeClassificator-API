@@ -1,0 +1,5 @@
+0:DuroRiadoRio
+1:Mole
+2:Quebrado
+3:RiadoRio
+4:RioFechado
