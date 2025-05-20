@@ -18,14 +18,7 @@ Este é um app Flutter que utiliza um modelo de Machine Learning integrado a uma
 
 ## 🚀 Como utilizar
 
-Você pode:
-
-- ✅ Acesse a seção de releases deste repositório no GitHub. 
-- 📦 Baixe o arquivo app-release.apk.
-- ✅ Instale em seu dispositivo Android.
----
-
-### 📱 Opção 1: Instalar o app no celular
+### 📱 Você pode: Instalar o app no celular
 
 1. Acesse a seção de Releases deste repositório no GitHub  
 2. Baixe o arquivo app-release.apk  
