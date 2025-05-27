@@ -1,6 +1,3 @@
-Here's the translation in plain Markdown text format (without rendering/executing any Markdown commands):
-
-```
 # ☕ AI Coffee Classifier (Flutter + Flask + Docker + TFLite)
 
 This is a Flutter app that uses a Machine Learning model integrated with a Flask API to classify coffee bean images into five distinct categories. The classification is performed based on three consecutive images, using a client-server architecture via REST API.
@@ -41,4 +38,4 @@ This is a Flutter app that uses a Machine Learning model integrated with a Flask
   - image_picker
   - path_provider
   - permission_handler
-```
+
