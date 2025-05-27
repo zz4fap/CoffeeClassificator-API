@@ -19,7 +19,7 @@ This is a Flutter app that uses a Machine Learning model integrated with a Flask
 
 ### 📱 You can: Install the app on your phone
 
-1. Access the Releases section of this GitHub repository
+1. Access the Releases section of this GitHub repository [releases](https://github.com/zz4fap/CoffeeClassificator-API/releases/tag/1st-release)
 2. Download the app-release.apk file
 3. Install on your Android device
 4. Allow camera access when opening the app for the first time
