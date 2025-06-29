@@ -30,7 +30,7 @@ This is a Flutter app that uses a Machine Learning model integrated with a Flask
 ## 📱 Technologies Used
 
 - Flutter (Dart)
-- TensorFlow Lite (ConvMixer model)
+- TensorFlow Lite (YOLOv11n-cls model)
 - Flask (Python)
 - Docker
 - Flutter plugins:
