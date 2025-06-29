@@ -7,7 +7,7 @@ This is a Flutter app that uses a Machine Learning model integrated with a Flask
 ## 🧠 Features
 
 - 📸 Automatic capture of 3 photos using phone camera
-- 🤖 Classification via ConvMixer model using Flask API
+- 🤖 Classification via YOLOv11n-cls model using Flask API
 - ✅ Final result by majority voting
 - 🔗 Communication with server via local network (Docker)
 - 🔒 Local storage of results (with future SQL option)
